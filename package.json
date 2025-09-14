@@ -1,0 +1,16 @@
+{
+  "name": "ozon-bot-vercel",
+  "version": "1.0.0",
+  "description": "Telegram bot for vacation tracking",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
